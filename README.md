@@ -96,25 +96,6 @@ progressive learning path.
       /day05
       /day06
 
-------------------------------------------------------------------------
-
-# 🛠️ **Recommended .gitignore for Java + IntelliJ**
-
-    # IntelliJ
-    .idea/
-    *.iml
-
-    # Maven / Gradle outputs
-    target/
-    build/
-
-    # Logs
-    *.log
-
-    # OS files
-    .DS_Store
-
-------------------------------------------------------------------------
 
 ------------------------------------------------------------------------
 
