@@ -1,5 +1,7 @@
 package day02;
 
+import java.util.ArrayList;
+
 public class ContarElementosMaioresQue10 {
     public static void main(String[] args){
         int[] array = new int[3];
