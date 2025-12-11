@@ -1,6 +1,8 @@
 package day04;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class CalculandoFrequenciaElemento {
     public static void main(String[] args) {
@@ -14,6 +16,12 @@ public class CalculandoFrequenciaElemento {
         hashMap.put(7, "Fallen");
         hashMap.put(8, "Molodoy");
 
-        System.out.println(hashMap);
+        HashMap<String, Integer> frequencia = new HashMap<>();
+
+        for (String nome : hashMap.values()) {
+            frequencia.put(nome, frequencia.getOrDefault(nome, 0) + 1);
+        }
+
+        System.out.println(frequencia);
     }
 }
