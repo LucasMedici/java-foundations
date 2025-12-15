@@ -16,6 +16,7 @@ public class RemoverNumerosPares {
         arrayList.add(9);
         arrayList.add(10);
 
+
         for (int i = 0; i < arrayList.size(); i++) {
             if (arrayList.get(i) % 2 == 0) {
                 arrayList.remove(i);
