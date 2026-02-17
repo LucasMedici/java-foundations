@@ -9,24 +9,7 @@ algorithmic thinking through small, focused exercises.
 
 ------------------------------------------------------------------------
 
-## 📘 **What This Repository Covers**
-
-This study plan is entirely hands-on and covers:
-
--   Core Java Syntax\
--   Arrays & Collections\
--   Basic Data Structures\
--   String manipulation\
--   Frequent utility methods\
--   Simple algorithms (sorting, counting, searching)\
--   Foundational problem-solving patterns used in LeetCode
-
-Each group of exercises is organized by "Day", following a practical and
-progressive learning path.
-
-------------------------------------------------------------------------
-
-# 📅 **Day 1 --- Basic Syntax, Variables, Conditionals and Loops**
+# 📅 **Basic Syntax, Variables, Conditionals and Loops**
 
 **Exercises:** 1. Simple sum of two numbers\
 2. Check if a number is even or odd\
@@ -36,7 +19,7 @@ progressive learning path.
 
 ------------------------------------------------------------------------
 
-# 📅 **Day 2 --- Arrays**
+# 📅 **Arrays**
 
 **Exercises:** 1. Sum elements of an array\
 2. Find the maximum value\
@@ -46,7 +29,7 @@ progressive learning path.
 
 ------------------------------------------------------------------------
 
-# 📅 **Day 3 --- ArrayList**
+# 📅 **ArrayList**
 
 **Exercises:** 1. Create a list and add values\
 2. Remove even numbers\
@@ -56,7 +39,7 @@ progressive learning path.
 
 ------------------------------------------------------------------------
 
-# 📅 **Day 4 --- HashMap & HashSet**
+# 📅 **HashMap & HashSet**
 
 **Exercises:** 1. Count element frequency\
 2. Find the first duplicated element\
@@ -66,7 +49,7 @@ progressive learning path.
 
 ------------------------------------------------------------------------
 
-# 📅 **Day 5 --- Strings & StringBuilder**
+# 📅 **Strings & StringBuilder**
 
 **Exercises:** 1. Count vowels in a string\
 2. Manually reverse a string\
@@ -76,7 +59,7 @@ progressive learning path.
 
 ------------------------------------------------------------------------
 
-# 📅 **Day 6 --- Sorting + Utility Methods**
+# 📅 **Sorting + Utility Methods**
 
 **Exercises:** 1. Sort an array using `Arrays.sort()`\
 2. Sort an ArrayList using `Collections.sort()`\
@@ -86,15 +69,24 @@ progressive learning path.
 
 ------------------------------------------------------------------------
 
+# 📅 **MultiThread**
+
+**Exercises:** 1. Create two threads that print different messages to the console to observe concurrent execution \
+2. Run multiple threads that sleep for random times and log their start and finish order\
+3. Process a list of numbers using ExecutorService, where each thread calculates and prints the square of a number\
+
+------------------------------------------------------------------------
+
 # 📁 **Project Structure**
 
     /src
-      /day01
-      /day02
-      /day03
-      /day04
-      /day05
-      /day06
+      /Syntax_Variables
+      /Arrays
+      /ArrayList
+      /HashMap_HashSet
+      /Strings_StringBuilder
+      /Sorting
+      /MultiThread
 
 
 ------------------------------------------------------------------------
@@ -110,24 +102,7 @@ raciocínio algorítmico através de exercícios simples e diretos.
 
 ------------------------------------------------------------------------
 
-## 📘 **Conteúdo do Repositório**
-
-Este plano de estudos cobre:
-
--   Sintaxe essencial do Java\
--   Arrays e Coleções\
--   Estruturas de Dados básicas\
--   Manipulação de Strings\
--   Métodos utilitários comuns\
--   Algoritmos simples (ordenação, contagem, busca)\
--   Padrões fundamentais usados em problemas de LeetCode
-
-Os exercícios são organizados por "Dia", seguindo uma ordem prática e
-progressiva.
-
-------------------------------------------------------------------------
-
-# 📅 **Dia 1 --- Sintaxe, Variáveis, Condicionais e Loops**
+# 📅 **Sintaxe, Variáveis, Condicionais e Loops**
 
 **Exercícios:** 1. Soma simples entre dois números\
 2. Verificar se um número é par ou ímpar\
@@ -137,7 +112,7 @@ progressiva.
 
 ------------------------------------------------------------------------
 
-# 📅 **Dia 2 --- Arrays**
+# 📅 **Arrays**
 
 **Exercícios:** 1. Somar os elementos de um array\
 2. Encontrar o maior valor\
@@ -147,7 +122,7 @@ progressiva.
 
 ------------------------------------------------------------------------
 
-# 📅 **Dia 3 --- ArrayList**
+# 📅 **ArrayList**
 
 **Exercícios:** 1. Criar lista e adicionar valores\
 2. Remover números pares\
@@ -157,7 +132,7 @@ progressiva.
 
 ------------------------------------------------------------------------
 
-# 📅 **Dia 4 --- HashMap & HashSet**
+# 📅 **HashMap & HashSet**
 
 **Exercícios:** 1. Contar frequência de elementos\
 2. Encontrar o primeiro duplicado\
@@ -167,7 +142,7 @@ progressiva.
 
 ------------------------------------------------------------------------
 
-# 📅 **Dia 5 --- Strings e StringBuilder**
+# 📅 **Strings e StringBuilder**
 
 **Exercícios:** 1. Contar vogais em uma string\
 2. Inverter string manualmente\
@@ -177,7 +152,7 @@ progressiva.
 
 ------------------------------------------------------------------------
 
-# 📅 **Dia 6 --- Ordenação + Métodos Utilitários**
+# 📅 **Ordenação + Métodos Utilitários**
 
 **Exercícios:** 1. Ordenar array com `Arrays.sort()`\
 2. Ordenar lista com `Collections.sort()`\
@@ -187,12 +162,21 @@ progressiva.
 
 ------------------------------------------------------------------------
 
+# 📅 **MultiThread**
+
+**Exercises:** 1. Criar duas threads que imprimem mensagens diferentes no console para observar a execução concorrente \
+2. Executar múltiplas threads que dormem por tempos aleatórios (sleep) e registrar a ordem de início e término\
+3. Processar uma lista de números usando ExecutorService, onde cada thread calcula e imprime o quadrado de um número\
+
+------------------------------------------------------------------------
+
 # 📁 **Estrutura do Projeto**
 
     /src
-      /day01
-      /day02
-      /day03
-      /day04
-      /day05
-      /day06
+      /Syntax_Variables
+      /Arrays
+      /ArrayList
+      /HashMap_HashSet
+      /Strings_StringBuilder
+      /Sorting
+      /MultiThread
